@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+form label {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+
+a:link {
+  color: #e60ddb;
+}
+
+a:visited {
+  color: #b683bb;
+}
+
+.container {
+  background: none;
+  border-radius: 25%;
+}
+
+.container {
+  background: none;
+  display: inline-flex;
+  transform: translate(55%, 30%);
+  width: 940px;
+  height: 600px;
+  box-shadow: 20px 0px 100px 20px rgb(219, 1, 85);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+  padding: 50px 0px;
+  text-align: center;
+  width: 600px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.container1_conteudo {
+  padding-top: 5px;
+}
+
+.container1_descricao {
+  font-size: 24px;
+}
+
+#nome {
+  background: url(./user.png);
+  background-repeat: no-repeat;
+  background-position: 3%;
+  background-size: 1.3rem;
+  text-align: center;
+}
+
+#email {
+  background: url(./email.png);
+  background-repeat: no-repeat;
+  background-position: 3%;
+  background-size: 1.3rem;
+  text-align: center;
+}
+
+#senha {
+  background: url(./senha.png);
+  background-repeat: no-repeat;
+  background-position: 3%;
+  background-size: 1.3rem;
+  text-align: center;
+}
+
+.container1_input--padrao {
+  margin: 10px 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  width: 400px;
+  height: 50px;
+  box-shadow: 2px 2px 6px rgb(226, 85, 139);
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.container1_checkbox {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+.tcolor {
+  color: rgb(219, 1, 85);
+}
+
+.container1_enviar {
+  width: 150px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 50px;
+  background: linear-gradient(
+    45deg,
+    rgb(241, 77, 140),
+    rgb(207, 58, 145),
+    rgb(211, 8, 86)
+  );
+  border: #e60ddb;
+  transition: all.0.3s ease-in-out;
+}
+
+.container1_enviar:hover {
+  background: linear-gradient(
+    45deg,
+    rgb(255, 0, 149),
+    rgb(255, 0, 149),
+    rgb(255, 0, 149)
+  );
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.container2 {
+  background-color: rgb(209, 4, 117);
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  text-align: center;
+  background-image: url(./cs.png);
+  background-repeat: no-repeat;
+  background-position: 3%;
+  background-size: 20rem;
+  background-position: center;
+  border-bottom-right-radius: 2%;
+  border-top-right-radius: 2%;
+  width: 340px;
+  height: 550px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 50px;
+}
+
+.c2t {
+  color: white;
+}
+.c2p {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 28px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.ck {
+  color-scheme: black;
+}
