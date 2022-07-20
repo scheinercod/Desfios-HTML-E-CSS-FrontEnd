@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+form label {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+
+a:link {
+  color: #e60ddb;
+}
+
+a:visited {
+  color: #b683bb;
+}
+
+.container {
+  padding: 0%;
+  display: inline-flex;
+  transform: translate(55%, 30%);
+  flex-wrap: nowrap;
+  margin: auto;
+  border-radius: 20px;
+  cursor: auto;
+  border: none;
+  width: 940px;
+  height: 550px;
+  margin-top: 50px;
+  background: none;
+  box-shadow: 20px 0px 100px 20px rgb(219, 1, 85);
+  border-top-left-radius: 20%;
+  border-top-left-radius: 60%;
+  border-bottom-right-radius: 20%;
+}
+
+.itens1 {
+  padding: 50px 0px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  background: url(./mina.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-right-radius: 60%;
+}
+
+.itens2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 50px 0px;
+  margin-top: 50px;
+  text-align: center;
+  margin-top: 10px;
+  width: 150%;
+  background: rgb(255, 254, 255);
+  border-top-left-radius: 60%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 20%;
+}
+
+#nome {
+  background: url(./user.png);
+  background-repeat: no-repeat;
+  background-position: 3%;
+  background-size: 1.3rem;
+  text-align: center;
+}
+
+#email {
+  background: url(./email.png);
+  background-repeat: no-repeat;
+  background-position: 3%;
+  background-size: 1.3rem;
+  text-align: center;
+}
+
+#senha {
+  background: url(./senha.png);
+  background-repeat: no-repeat;
+  background-position: 3%;
+  background-size: 1.3rem;
+  text-align: center;
+}
+
+.container1_input--padrao {
+  margin: 10px 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  width: 400px;
+  height: 50px;
+  box-shadow: 2px 2px 6px rgb(226, 85, 139);
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.container1_checkbox {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+.tcolor {
+  color: rgb(219, 1, 85);
+}
+
+.container1_enviar {
+  width: 150px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 50px;
+  background: linear-gradient(
+    45deg,
+    rgb(241, 77, 140),
+    rgb(207, 58, 145),
+    rgb(211, 8, 86)
+  );
+  border: #e60ddb;
+  transition: all.0.3s ease-in-out;
+}
+
+.container1_enviar:hover {
+  background: linear-gradient(
+    45deg,
+    rgb(231, 0, 135),
+    rgb(255, 51, 170),
+    rgb(218, 0, 152)
+  );
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s, 1.5ms;
+}
+
+.links {
+  text-decoration: none;
+}
